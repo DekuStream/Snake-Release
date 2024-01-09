@@ -1,0 +1,43 @@
+/*
+ETML
+Auteur: MRA
+Date: 28.11.2023
+Description: CSS de la page HTML du jeu snake
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+button {
+  height: 25px;
+  width: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#game {
+  background-color: black;
+}
+
+#affichage_score {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#gameover {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  position: absolute;
+  margin-top: 250px;
+  color: rgb(150, 4, 4);
+}
